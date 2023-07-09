@@ -8,16 +8,16 @@ font-family: 'Roboto Slab', serif;
 }
 
 .text-primary{
-    color: #FD6E0A;;
+    color: #FD6E0A;
 }
 .btn-primary{
     border-radius: 5px;
-background: #FD6E0A; 
-border: 0;
-color: white;
-font-size: 20px;
-font-weight: 700;
-padding: 15px 35px;
+    background: #FD6E0A; 
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 
 }
 
@@ -67,13 +67,14 @@ nav a{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 40%;
     
 
 }
 
 .banner{
     display: flex;
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 0px 100px;
     align-items: center; justify-content: space-around;
 }
 .banner-content{
@@ -81,7 +82,7 @@ nav a{
 }
 
 .banner .profile-pic{
-    width: 300px;
+    width: 400px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -90,6 +91,19 @@ nav a{
 .banner-title{
     font-size: 85px;
     font-weight: 700; margin-top: 5px; margin-bottom: 20px;
+}
+.banner-description{
+    color: #474747;
+}
+.con-btn{
+
+    border-radius: 5px;
+    background:#474747; 
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 /* main */
 main{
@@ -124,7 +138,7 @@ main section{
     gap: 24px;
 }
 .skill{
-    padding: 30px; border-radius: 5px; color: #fff;
+    padding: 30px; border-radius: 5px; background-color: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill-desc{
@@ -140,6 +154,11 @@ main section{
 .resume-container{
     display: flex;
     margin: 0px auto;
+    
+}
+.resume-column{
+    gap: 25px;
+    
 }
 .res-item-title{
     color: #474747;
@@ -157,4 +176,25 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 200px;
+    background-color: #fff8f3;
+    margin-top: 100px; gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+
+}
+.contact input[type='text'], .contact input[type='email'], textarea{
+    display: block; margin-bottom: 25px; color: #757575; width: 100%;
+    padding: 18px 35px; border-radius: 5px; background: #fff; border: 0;
 }
