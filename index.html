@@ -1,21 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdeveloper-portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./Styles/Portfolio.css">
 </head>
+
 <body>
-    <header>
+    <header class="header">
+        <nav>
+            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li><a>Portfolio</a></li>
+                <li><a>Blog</a></li>
+                <li><button class="btn-primary"><a>Hire Me</a></button></li>
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="banner-greeting">Hi I Am</h3>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p class="banner-description">ftghygukhkhjkjhi guhihi gjkhjh</p>
+                <button class="btn-primary">Download Cv</button>
+                <button class="btn-primary">Contact</button>
+            </div>
+            <img class="profile-pic" src="./images/hardy.png" alt="" srcset="">
+        </div>
 
     </header>
 
 
     <main>
 
+        <section class="about">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quis. Et ducimus voluptatibus praesentium voluptate placeat ab voluptates adipisci vitae similique, consectetur qui iure nemo illo expedita, necessitatibus debitis eaque.</p>
+
+            <div class="about-info-container">
+                <div class="about-info">
+                    <h4 class="info-title">Name :</h4>
+                    <p class="info-description">Mary Hardy</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Email :</h4>
+                    <p class="info-description">info@gmail.com</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Date of Birth</h4>
+                    <p class="info-description">6 april 2023</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">From :</h4>
+                    <p class="info-description">Los Angeles, Usa</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- What i do start -->
+
+        <section>
+            <h3 class="section-title">What I Do</h3>
+            <p id="what-i-do-desc" class="section-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum id blanditiis laboriosam unde eveniet porro sequi quia dolor consectetur officiis itaque necessitatibus repellendus labore exercitationem quaerat, laudantium, recusandae.</p>
+            <div class="skill-conntainer">
+                <div class="skill">
+                    <img src="./images/icons/js.png" alt="">
+                    <h3 class="skill-title">Vanila Javascript</h3>
+                    <p class="skill-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo modi sunt qui expedita tempora atque?</p>
+                </div>
+                <div class="skill">
+                    <img src="./images/icons/react.png" alt="">
+                    <h3 class="skill-title">React</h3>
+                    <p class="skill-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, eius magnam magni soluta ab ut?</p>
+                </div>
+                <div class="skill">
+                    <img src="./images/icons/nodejs.png" alt="">
+                    <h3 class="skill-title">Node Js</h3>
+                    <p class="skill-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum ullam voluptatibus a voluptates delectus!</p>
+                </div>
+                <div class="skill">
+                    <img src="./images/icons/mongo.png" alt="">
+                    <h3 class="skill-title">MongoDB</h3>
+                    <p class="skill-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laborum consequuntur placeat rem nisi provident.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- my resume -->
+        <section>
+            <h3 class="section-title">A Summary of my Resume</h3>
+
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="res-column-title">My Education</h3>
+                    <div class="resume-item">
+                        <h2 class="res-item-title">MSc in CSE</h2>
+                        <h3 class="res-item-institute">Harvard University / 2015-2017</h3>
+                        <p class="res-item-desc">Skill Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Vel inventore laborum sit eius error id, libero hic molestias?</p>
+                    </div>
+                    <hr/>
+                    <div class="resume-item">
+                        <h2 class="res-item-title">MSc in CSE</h2>
+                        <h3 class="res-item-institute">Harvard University / 2015-2017</h3>
+                        <p class="res-item-desc">Skill Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Vel inventore laborum sit eius error id, libero hic molestias?</p>
+                    </div>
+                    <div class="resume-item">
+                        <h2 class="res-item-title">MSc in CSE</h2>
+                        <h3 class="res-item-institute">Harvard University / 2015-2017</h3>
+                        <p class="res-item-desc">Skill Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Vel inventore laborum sit eius error id, libero hic molestias?</p>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="res-column-title">My Experience</h3>
+                    <div class="resume-item">
+                        <h2 class="res-item-title">MSc in CSE</h2>
+                        <h3 class="res-item-institute">Harvard University / 2015-2017</h3>
+                        <p class="res-item-desc">Skill Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Vel inventore laborum sit eius error id, libero hic molestias?</p>
+                    </div>
+                    <hr/>
+                    <div class="resume-item">
+                        <h2 class="res-item-title">MSc in CSE</h2>
+                      <h3 class="res-item-institute">Harvard University / 2015-2017</h3>
+                        <p class="res-item-desc">Skill Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Vel inventore laborum sit eius error id, libero hic molestias?</p>
+                    </div>
+                    <hr/>
+                    <div class="resume-item">
+                        <h2 class="res-item-title">MSc in CSE</h2>
+                        <h3 class="res-item-institute">Harvard University / 2015-2017</h3>
+                        <p class="res-item-desc">Skill Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Vel inventore laborum sit eius error id, libero hic molestias?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="download-cv">
+                <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
+
     </main>
 
     <footer></footer>
-    
+
 </body>
+
 </html>
